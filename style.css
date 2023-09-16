@@ -46,13 +46,13 @@ body {
 .games-like {
     display: block;
     /* height: 400px; */
-    /* max-width: 300px; */
+    max-height: 520px;
     background: linear-gradient(136.14deg, rgba(255, 255, 255, 0.5) 1.17%, rgba(255, 255, 255, 0.7) 99.51%);
 }
 
 .overflow-y-auto {
     /* max-width: 300px; */
-    height: 400px;
+    max-height: 446px;
 }
 
 .overflow-x-scroll {
@@ -61,7 +61,7 @@ body {
 
 .staff-picks {
     background: linear-gradient(136.14deg, rgba(255, 255, 255, 0.5) 1.17%, rgba(255, 255, 255, 0.7) 99.51%);
-    height: 475px;
+    height: 520px;
     padding: 24px;
 }
 
