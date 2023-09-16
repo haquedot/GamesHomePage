@@ -1,0 +1,91 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+ ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #dfdfdf94;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.customNav::-webkit-scrollbar {
+    display: none;
+}
+
+.body-color {
+    /* height: 100vh;
+    background-size: cover; */
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.nav-icon {
+    width: 63px;
+    height: 67px;
+}
+
+.btn {
+    width: 140px;
+    margin-left: -40px;
+    margin-right: 20px;
+    z-index: -1;
+}
+
+.d-flex {
+    align-items: center;
+}
+
+.games-like {
+    display: block;
+    /* height: 400px; */
+    /* max-width: 300px; */
+    background: linear-gradient(136.14deg, rgba(255, 255, 255, 0.5) 1.17%, rgba(255, 255, 255, 0.7) 99.51%);
+}
+
+.overflow-y-auto {
+    /* max-width: 300px; */
+    height: 400px;
+}
+
+.overflow-x-scroll {
+    width: 100%;
+}
+
+.staff-picks {
+    background: linear-gradient(136.14deg, rgba(255, 255, 255, 0.5) 1.17%, rgba(255, 255, 255, 0.7) 99.51%);
+    height: 475px;
+    padding: 24px;
+}
+
+.rounded {
+    border-radius: 16px !important;
+}
+
+.hover-class {
+    background: transparent;
+    margin: auto;
+    text-decoration: none;
+    color: #000;
+}
+
+.hover-class:hover {
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+@media(max-width:767px) {
+    .games-like {
+        display: none;
+    }
+    .staff-picks {
+        background: transparent;
+        height: auto;
+    }
+}
