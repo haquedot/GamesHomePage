@@ -34,7 +34,9 @@ body {
 a {
     font-weight: 500;
 }
-
+.col-6{
+    width: 45%;
+}
 .nav-icon {
     width: 63px;
     height: 67px;
